@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(
-    ['Game-Theory-Study.py'],
+    ['Game-Theory-Prg.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -28,7 +28,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='Game-Theory-Study',
+    name='Game Theory Program',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
